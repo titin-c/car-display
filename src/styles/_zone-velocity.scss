@@ -1,0 +1,152 @@
+.car-display-grid-item4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.zone-velocity-top {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .velocidad-max {
+    display: flex;
+    justify-content: space-evenly;
+}
+.velocidad-max-datas {
+    font-size: 19px;
+    margin: 0 20px;
+    width: 164px;
+    text-align: center;
+}
+.velocidad-max-datas .data {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  .velocidad-max-datas .kmh {
+    color:#5A7196;
+  }
+
+  
+.velocity-graphics{
+    position: relative;
+}
+.velocity-graphics .velocity{
+    width: 331px;
+    position: absolute;
+    left:50px;
+    top:0;
+}
+.velocity-graphics .vh{
+    position: absolute;
+    width: 138px;
+    left: 147px;
+    top:120px;
+}
+.vh-data {
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  .vh-data span{
+      color: #5A7196;
+    font-size: 21px;
+    font-weight: normal;
+  }
+  .velocidad-data {
+    font-size: 71px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 95px;
+  }
+  .velocidad-data span{
+      color: #5A7196;
+    font-size: 35px;
+    font-weight: normal;
+  }
+
+  
+
+
+.zone-velocity-bottom {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px 13px;
+}
+.graphic-avg {
+    background: #1C2230 url('#{$path--rel}/linea-horizontal.svg') no-repeat center center;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 140px;
+}
+.graphic-avg-linea {
+    position: absolute;
+    top: 29px;
+    left: calc(100% - 330px);
+}
+.graphic-avg-datas {
+    position: absolute;
+    bottom: 25px;
+    right:0;
+    left: 0;
+    font-size: 14px;
+    text-align: center;
+}
+.graphic-avg-datas .data {
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 5px;
+}
+.graphic-avg-datas .vh {
+    color: #5A7196;
+}
+
+.botones-marchas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botones-marchas button {
+    border: none;
+    background: transparent;
+    color: #5A7196;
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+    &:hover{
+        color: #fff;
+        background-color: #1C2230;
+    }
+  }
+
+  .botones-marchas .btn-danger.active{
+    animation: btnDanger 1.5s infinite;
+    
+
+  }
+  @keyframes btnDanger {
+    from {background-color: transparent;}
+    25% {background-color: #F62799; box-shadow: #F6279966 0 0 10px ;}
+    35% {background-color: transparent; box-shadow: #F6279900 0 0 10px ;}
+    50% {background-color: #F62799; box-shadow: #F6279966 0 0 10px ;}
+    to {background-color: transparent; box-shadow: #F6279900 0 0 10px ;}
+  }
+  .botones-marchas .btn-danger.active svg{
+      fill:#fff;
+  }
+
+button.btn-danger svg {
+    fill: #F62799;
+    width: 30px;
+    height: 30px;
+}

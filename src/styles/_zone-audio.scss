@@ -1,0 +1,102 @@
+/* zone audio */
+
+.car-display-grid-item2.zone-audio {
+  background: #1f2a3c;
+  background: -moz-linear-gradient(-45deg, #1f2a3c 0%, #131927 100%);
+  background: -webkit-linear-gradient(-45deg, #1f2a3c 0%,#131927 100%);
+  background: linear-gradient(135deg, #1f2a3c 0%,#131927 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f2a3c', endColorstr='#131927',GradientType=1 );
+}
+.zone-audio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+  }
+  .zone-audio-top {
+    display: flex;
+    position: relative;
+  }
+  .zone-audio-botton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .zone-audio-img {margin-right: 20px;}
+  .zone-audio-img img{width: 100px; height: 100px; border-radius: 7px;}
+  .zone-audio-description {
+    font-size: 1.3em;
+}
+.zone-audio-description p{
+    color:#5A7196;
+  }
+  .zone-audio-list {
+    position: absolute;
+    right: 0;
+    top: 0;}
+    .zone-audio-wave {
+      margin: 0 10px;
+    }
+  .zone-audio-wave img{
+    width: 100%;
+    height: 50px;
+  }
+  .zone-audio-bottons {
+    min-width: 106px;
+  }
+  .zone-audio-bottons button:last-child{
+margin-left: 10px;
+  }
+  button.btn-rounded.btn-play {
+    aspect-ratio: 1/1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+
+    background: #4f5660;
+background: -moz-linear-gradient(-45deg,  #4f5660 0%, #242b35 100%);
+background: -webkit-linear-gradient(-45deg,  #4f5660 0%,#242b35 100%);
+background: linear-gradient(135deg,  #4f5660 0%,#242b35 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f5660', endColorstr='#242b35',GradientType=1 );
+
+}
+  button.btn-play svg{
+    fill: #fff;
+      }
+
+.vol-container, .temp-container{position: relative; z-index: 999;}
+.vol-slider-container, .temp-slider-container {
+  background-color: #242c3f;
+  padding: 20px 30px 15px;
+  border-radius: 50px;
+  position: absolute;
+  box-shadow: #0e1420 0 0 5px;
+  width: 50px;
+  left: 0px;
+  top:-60px;
+  opacity: 0;
+
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+.vol-container.active .vol-slider-container, .temp-container.active .temp-slider-container{opacity: 1; width: 350px;top: -60px;left: -165px;}
+
+input.vol-slider, input.temp-slider {
+  width: 100%;
+}
+.vol-data, .clim-data {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+}
+.vol-data span, .clim-data span{
+  color: #5A7196;
+  font-weight: normal;
+}

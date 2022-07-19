@@ -1,0 +1,105 @@
+button{
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+.btn-square{
+    background-color: #1C2230;
+    padding: 15px;
+    border-radius: 7px;
+    border:none;
+    color:#fff;
+  }
+  .btn-square:hover{
+    background-color:#242C3F
+  }
+  .btn-rounded{
+    background-color: #1C2230;
+    padding: 15px;
+    border-radius: 100%;
+    border:none;
+    color:#fff;
+  }
+  .btn-rounded:hover{
+    background-color:#242C3F
+
+    
+  }
+  .zone-audio-botton  svg , .btn  svg{
+    width: 18px;
+    display: block;
+    fill: $btn-icon-color;
+  }
+  
+ .zone-central-bottom button{
+   background-color: #242C3F;
+   width: 50px;
+   height: 50px;
+   margin: 10px 0 0;
+
+   &:hover{
+    background-color: #313a50;
+   }
+ } 
+ .zone-central-bottom button svg{
+  fill: #fff;
+  width: 22px;
+height: 22px;
+} 
+
+.btn-rounded.btn-danger-lights {
+  width: 65px;
+  height: 65px;
+}
+.btn-rounded.btn-danger-lights.active {
+  background: #35D9F2;
+  box-shadow: #35D9F266 0 0 10px ;
+}
+.btn-rounded.btn-danger-lights svg{
+  width: 30px;
+  height: 30px;
+}
+.btn-rounded.btn-danger-lights.active svg{
+ fill: #242C3F;
+}
+.btn-square.btn-automatic-drive {
+  border-radius: 15px;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  color: #1C2230;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fb76bc;
+background: -moz-linear-gradient(-45deg,  #fb76bc 0%, #fb2597 100%);
+background: -webkit-linear-gradient(-45deg,  #fb76bc 0%,#fb2597 100%);
+background: linear-gradient(135deg,  #fb76bc 0%,#fb2597 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb76bc', endColorstr='#fb2597',GradientType=1 );
+
+&:hover{
+  background: #fb88c5;
+background: -moz-linear-gradient(-45deg,  #fb88c5 0%, #fe4baa 100%);
+background: -moz-linear-gradient(-45deg,  #fb88c5 0%, #fe4baa 100%);
+background: linear-gradient(135deg,  #fb88c5 0%,#fe4baa 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb88c5', endColorstr='#fe4baa',GradientType=1 );
+}
+&:hover svg{
+  fill: #1C2230;
+}
+&.active{
+  background: #35D9F2;
+  box-shadow: #35D9F266 0 0 10px ;
+
+  & svg{
+    fill: #1C2230;
+  }
+}
+} 
+.btn-square.btn-automatic-drive svg{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}

@@ -1,0 +1,119 @@
+/* zone map */
+.zone-map {position: relative; overflow: hidden;}
+.zone-map .map{
+  position: absolute;
+left: -51%;
+right: -49%;
+bottom: -32px;
+}
+.zone-map .map img{max-width: 100%;}
+.zone-map-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 7px;
+}
+.zone-map-info {
+  display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.zone-map-direcction {
+  background: rgba(22, 27, 38, 0.95);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.zone-map-oratge, .zone-map-fuel {
+  background: rgba(22, 27, 38, 0.85);
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+}
+
+.zone-map-oratge-grados{
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.zone-map-oratge-grados span{
+  color:#5A7196;
+}
+.zone-map-oratge-desc{
+  color:#5A7196;
+  font-size: 10px;
+}
+.zone-map-fuel svg{
+  width: 22px;
+  margin-right: 10px;
+}
+.zone-map-fuel-km{
+  font-size: 19px;
+  color:#5A7196;
+}
+.zone-map-fuel-km span{
+  font-size: 24px;
+  font-weight: bold;
+  color:#fff
+}
+.zone-map-fuel .cls-1{
+  fill:#f78a07
+}
+
+.zone-map-fuel .cls-2{
+  fill:#5a7196
+}
+.zone-map-cargar{
+  font-size: 14px;
+  color:#5A7196;}
+.zone-map-cargar-fuel-es{
+  font-size: 12px;
+  font-weight: bold;
+  color:#fff}
+
+  .zone-map-direcction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.direccion {
+  margin-bottom: 10px;
+}
+  .zone-map-direcction button svg {
+    width: 24px;
+    fill:#fff
+  }
+
+.zone-map-direcction-km::before{
+  content:" ";
+  display: inline-block;
+  margin-right: 5px;
+  width:18px;
+    height: 18px;
+    background:$btn-icon-color;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    display: inline-block;
+    mask-position: center;
+    -webkit-mask-position: center;
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-distance.svg');
+    mask-image: url('#{$path--rel}/icons/icon-distance.svg');
+}
+.zone-map-direcction-min::before{
+  content:" ";
+  display: inline-block;
+  margin:0 10px 0 40px;
+  width:18px;
+    height: 18px;
+    background:$btn-icon-color;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    display: inline-block;
+    mask-position: center;
+    -webkit-mask-position: center;
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-clock.svg');
+    mask-image: url('#{$path--rel}/icons/icon-clock.svg');
+}

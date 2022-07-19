@@ -1,0 +1,34 @@
+/* icons */
+.icon{
+    width:24px;
+    height: 24px;
+    background:$btn-icon-color;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    display: inline-block;
+    mask-position: center;
+    -webkit-mask-position: center;
+  
+  }
+  .icon-music-list{
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-music-list.svg');
+    mask-image: url('#{$path--rel}/icons/icon-music-list.svg');
+  }
+  .icon-music-play{
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-music-play.svg');
+    mask-image: url('#{$path--rel}/icons/icon-music-play.svg');
+  }
+  .icon-music-prev{
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-music-prev.svg');
+    mask-image: url('#{$path--rel}/icons/icon-music-prev.svg');
+  }
+  .icon-music-next{
+    -webkit-mask-image: url('#{$path--rel}/icons/icon-music-next.svg');
+    mask-image: url('#{$path--rel}/icons/icon-music-next.svg');
+  }
+
+.btn  svg{
+    width: 18px;
+    display: block;
+    fill: $btn-icon-color;
+  }
