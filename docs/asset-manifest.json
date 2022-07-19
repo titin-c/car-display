@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/titin-c/car-display/static/css/main.53d3ca73.css",
+    "main.js": "/titin-c/car-display/static/js/main.8d17a513.js",
+    "static/js/787.b7bf821c.chunk.js": "/titin-c/car-display/static/js/787.b7bf821c.chunk.js",
+    "static/media/icon-volumen.svg": "/titin-c/car-display/static/media/icon-volumen.2355e489f4d8719c2ba3.svg",
+    "static/media/icon-music-list.svg": "/titin-c/car-display/static/media/icon-music-list.d63e16e9f3d8697c914c.svg",
+    "index.html": "/titin-c/car-display/index.html",
+    "static/media/linea-horizontal.svg": "/titin-c/car-display/static/media/linea-horizontal.b17670fbde7d9233dee9.svg",
+    "static/media/icon-distance.svg": "/titin-c/car-display/static/media/icon-distance.9cd6e83159393eb8475f.svg",
+    "static/media/icon-music-next.svg": "/titin-c/car-display/static/media/icon-music-next.3cc2f685677d72784de9.svg",
+    "static/media/icon-music-prev.svg": "/titin-c/car-display/static/media/icon-music-prev.393395c600414001fb4b.svg",
+    "static/media/icon-music-play.svg": "/titin-c/car-display/static/media/icon-music-play.ac5ad7f582cb70bc4f9d.svg",
+    "static/media/icon-clock.svg": "/titin-c/car-display/static/media/icon-clock.57d9694488df744a485e.svg",
+    "main.53d3ca73.css.map": "/titin-c/car-display/static/css/main.53d3ca73.css.map",
+    "main.8d17a513.js.map": "/titin-c/car-display/static/js/main.8d17a513.js.map",
+    "787.b7bf821c.chunk.js.map": "/titin-c/car-display/static/js/787.b7bf821c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d3ca73.css",
+    "static/js/main.8d17a513.js"
+  ]
+}
